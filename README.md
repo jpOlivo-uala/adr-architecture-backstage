@@ -24,7 +24,7 @@ foo@bar:~$ adr-log -i
 
 3. Check that the record is published
 ```console
-foo@bar:~$ open https://jpolivo-uala.github.io/adr-architecture/
+foo@bar:~$ open https://bancar.github.io/uala-adr-architecture/
 ```
 
 
