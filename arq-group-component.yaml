@@ -9,6 +9,6 @@ spec:
     displayName: Architecture
     email: architecture@example.com
     picture: https://example.com/groups/bu-architecture.jpeg
-  #parent: ops
-  #children: [backstage, other]
-  #members: [jdoe]
+  parent: ops
+  children: [backstage, other]
+  members: [jdoe]
