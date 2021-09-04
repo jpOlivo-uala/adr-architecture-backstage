@@ -3,6 +3,8 @@ kind: Group
 metadata:
   name: architecture
   description: The architecture business unit
+  annotations:
+    backstage.io/techdocs-ref: dir:.  
 spec:
   type: tech-unit
   profile:
