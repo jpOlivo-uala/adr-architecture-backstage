@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: architecture
+  description: The architecture business unit
+spec:
+  type: tech-unit
+  profile:
+    displayName: Architecture
+    email: architecture@example.com
+    picture: https://example.com/groups/bu-architecture.jpeg
+  #parent: ops
+  #children: [backstage, other]
+  #members: [jdoe]
