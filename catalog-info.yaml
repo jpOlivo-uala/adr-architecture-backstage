@@ -1,10 +1,9 @@
+# Group:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: architecture
-  description: The archi team
-  annotations:
-    backstage.io/techdocs-ref: dir:.  
+  description: The archi team 
 spec:
   type: team
   profile:
@@ -13,4 +12,19 @@ spec:
     picture: https://example.com/groups/bu-infrastructure.jpeg
   #parent: ops
   children: []
-  members: [her, teby, emi, juan]    
+---
+# Component:
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: architecture-adr
+  description: Architecture Decisions Records
+  title: Architecture Decisions Records (ADR's)
+  #labels:
+  #tags:
+  annotations:
+    backstage.io/techdocs-ref: dir:.    
+spec:
+  type: adr
+  lifecycle: experimental
+  owner: group:architecture 
