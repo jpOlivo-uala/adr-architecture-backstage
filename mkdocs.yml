@@ -1,7 +1,8 @@
 site_name: 'Architecture Decisions Records (ADRs)'
 
 nav:
-  - Home: index.md
+  - Introduction: overview.md 
+  - ADR List: index.md
 
 plugins:
   - techdocs-core
