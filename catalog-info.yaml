@@ -1,14 +1,16 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Group
 metadata:
-  name: testJP
-  description: My component test
+  name: architecture
+  description: The archi team
   annotations:
-    backstage.io/techdocs-ref: dir:.   
+    backstage.io/techdocs-ref: dir:.  
 spec:
-  type: website
-  lifecycle: production
-  owner: artist-relations-team
-  system: artist-engagement-portal
-  providesApis:
-    - artist-api  
+  type: team
+  profile:
+    displayName: Architecture
+    email: architecture@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  #parent: ops
+  children: []
+  members: [her, teby, emi, juan]    
