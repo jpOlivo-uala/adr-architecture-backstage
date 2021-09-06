@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: test
-  description: The place to be, for great artists
+  name: testJP
+  description: My component test
   annotations:
     backstage.io/techdocs-ref: dir:.   
 spec:
